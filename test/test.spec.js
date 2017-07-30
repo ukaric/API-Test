@@ -1,4 +1,4 @@
-const app = require('./app')
+const app = require('../app')
 
 const api = require('supertest')(app)
 const chai = require('chai')
