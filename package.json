@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/test.spec.js --timeout 30000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "chai": "4.0.2",
+    "express": "4.15.3",
+    "mocha": "3.4.2",
+    "supertest": "3.0.0"
+  },
+  "devDependencies": {
+    "chai-like": "^0.2.14",
+    "chai-things": "^0.2.0"
+  }
+}

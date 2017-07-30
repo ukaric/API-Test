@@ -1,0 +1,128 @@
+{
+	"variables": [],
+	"info": {
+		"name": "API",
+		"_postman_id": "b4242d75-579b-aa58-5f0a-d1883bade81b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root URL - GET",
+			"request": {
+				"url": "http://localhost:3000/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "email",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "Checks the root URL"
+			},
+			"response": []
+		},
+		{
+			"name": "Sign-In - POST",
+			"request": {
+				"url": "http://localhost:3000/sign-in",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "email",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "Tests the sign-in it should return access_token"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users - GET",
+			"request": {
+				"url": "http://localhost:3000/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "00000000-0000-0000-0000-000000000000",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Gets all users."
+			},
+			"response": []
+		},
+		{
+			"name": "Get User - GET",
+			"request": {
+				"url": "http://localhost:3000/users/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "00000000-0000-0000-0000-000000000000",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Gets single users."
+			},
+			"response": []
+		},
+		{
+			"name": "Get user accounts - GET",
+			"request": {
+				"url": "http://localhost:3000/users/1/accounts",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "00000000-0000-0000-0000-000000000000",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Gets single users."
+			},
+			"response": []
+		}
+	]
+}
