@@ -104,8 +104,10 @@ app.get('/', function(req, res) {
   res.send('Hello World!')
 })
 
-app.listen(3000, function() {
-  console.log('Example app listening on port 3000!')
+const port = process.env.PORT || 3000
+
+app.listen(port, function() {
+  console.log(`Example app listening on port ${port}!`)
 })
 
 // Sign in to get token
@@ -167,7 +169,7 @@ app.get('/users/:userId/accounts', (req, res) => {
     const userToReturn = users.filter(user => {
       return user.user_id == req.params.userId
     })
-
+    // This would be bug
     if (userToReturn[0].active === false) {
       throw new Error('User is not active')
     }
