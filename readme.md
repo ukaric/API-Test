@@ -11,6 +11,8 @@ I documented the code so there should be no problem going over it.
 I have updated the code so it reflects on the feedback provided, I will also make another branch named `no-format` where I will disable `prettier` formatter for maximum compatibility even tho no matter the editor running `app.js` should work.
 
 Regarding the bug I have documented my view on it if that is the bug i was asked to find.
+
+You can find analysis task and link to `Table.html` in this [gist](https://gist.github.com/ukaric/fb40837d98cdd4aed21f75f61b401f08)
 ## Enviroment
 
 OS Archlinux `4.11.9-1-ARCH`
