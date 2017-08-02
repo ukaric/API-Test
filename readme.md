@@ -20,6 +20,7 @@ Node: `v8.2.1`
 NPM : `5.3.0`
 
 Editor: WebStorm
+
 Tested in: VSCode, Atom
 
 ## Instructions
