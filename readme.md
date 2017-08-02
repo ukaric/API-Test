@@ -3,9 +3,12 @@
 [![node](https://badge.fury.io/js/node.svg)]()
 
 ## Notes
+
+#### This is the branch with no code formatting.
+
 I documented the code so there should be no problem going over it.
 
-I have updated the code so it reflects on the feedback provided, I will also make another branch named `no-format` where I will disable `standard` linter for maximum compatibility even tho no matter the editor running `app.js` should work.
+I have updated the code so it reflects on the feedback provided, I will also make another branch named `no-format` where I will disable `prettier` formatter for maximum compatibility even tho no matter the editor running `app.js` should work.
 
 Regarding the bug I have documented my view on it if that is the bug i was asked to find.
 ## Enviroment
