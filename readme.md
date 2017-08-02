@@ -1,5 +1,6 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
+[![npm](https://img.shields.io/npm/v/npm.svg)]()
+[![node version](https://badge.fury.io/js/node.svg)]()
 ## Notes
 I documented the code so there should be no problem going over it.
 
